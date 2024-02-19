@@ -1,0 +1,254 @@
+@font-face {
+    font-family:content;
+    src: url(./content.woff2);
+}
+
+@font-face {
+    font-family:letter ;
+    src: url(./letter.woff2);
+}
+@font-face {
+    font-family:title ;
+    src: url(./title.woff2);
+}
+
+
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+  
+#page1{
+   min-height: 100vh;
+    width: 100%;
+    background-color: #FFC1CE;
+}
+#trans{
+    width: 100%;
+    height: 85vh;
+    /* background-color: #CFF0F5; */
+    overflow: hidden;
+}
+#page1 h1{
+    font-family: title;
+    text-transform: uppercase;
+    font-size: 38vw;
+    font-weight: 100;
+    padding: 20px ;
+    /* transform: translateY(500px); */
+    /* background-color: red; */
+ 
+}#para{
+    width: 50%;
+    /* background-color: red; */
+    font-size: 3vw;
+    font-family: content;
+    margin-left: 360px;
+    text-align: center;
+    font-weight: 100;
+
+}#page2{
+    min-height: 100vh;
+     width: 100%;
+     background-color: #FFC1CE;
+     position: relative;
+     z-index: 200;
+     margin-top: 100px;
+ }
+ #page4{
+    min-height: 100vh;
+     width: 100%;
+     background-color: white;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+#page2 #pony{
+ width: 100%;
+ margin-top: 50px;
+ /* background-color: antiquewhite; */
+ text-align: center;
+}
+#pony  h1{
+   font-size: 15vw;
+    font-family: title;
+   line-height: 0.8;
+   font-weight: 100;
+   /* transition: all ease 0.4s; */
+   text-transform: uppercase;
+ 
+}#page1 h1 span{
+    display: inline-block;
+}
+
+
+
+#photo{
+    width: 700px;
+    height: 900px;
+    background-color: bisque;
+    /* transform: rotate(4deg); */
+    margin-left: 50px;    
+    position: relative;
+    rotate: 3deg;
+    margin-top: -10px;
+}#photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}#photo-1 {
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    width: 400px;
+    height: 460px;
+    background-color: aqua;
+
+}#photo-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#content{
+    width: 700px;
+    height: 800px;
+    background-color: white;
+    position: absolute;
+    top:30%;
+    padding: 60px;
+    font-family: letter;
+    left: 47%;
+    rotate: -4deg;
+
+}#content p{
+    font-size: 19px;
+    font-weight: 400;    
+}
+#svg{
+    width: 200px;
+    height: 100px;
+    /* background-color: #FFC1CE; */
+    margin-top: 30px;
+    margin-left : 50%;
+}#svg img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page3{
+    min-height: 120vh;
+     width: 100%;
+     /* background-color: red; */
+     position: relative;
+     /* margin-top: -20px; */
+     background-image:url(https://www.agencepony.fr/wp-content/uploads/2024/01/malik-shibly-Bdm8BNWz75E-unsplash.webp) ;
+     background-position: 100%;
+     background-size: cover;
+ }
+ #page3 .scroll{
+    width: 100%;
+    height: 200px;
+    /* margin-top: 30px; */
+    /* background-color: red; */
+    padding-top: 14px;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    align-items: center;
+  white-space: nowrap;
+    position: relative;
+    
+ }
+ .scroll h1{
+     font-size: 200px;
+     font-family: title;
+     color: #CFF0F5;
+     font-weight: 100;
+     text-transform: uppercase;
+     /* word-spacing: 20px; */
+     letter-spacing: 20px;
+ }.scrollpack{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+
+    /* background-color: #FFC1CE; */
+    margin-top: 12%;
+
+ }
+ #rock,#roll{
+    transform: translateX(-50%);
+ }
+ nav{
+  position: absolute;
+    width: 100%;
+    height: 10%;
+    /* background-color: blue;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    top: 0%;
+    left: 0%;
+    z-index: 99999;
+ }svg{
+    width: 100px;
+    /* margin-top: -px; */
+ }nav h1, nav h2{
+    font-family: title;
+    text-transform: uppercase;
+    font-weight:100 ;
+    font-size: 20px;
+   cursor: pointer;
+   transition: all ease 0.5s;
+ }
+
+ #words{
+    width: 60%;
+    min-height: 100vh;
+    /* background-color: red;
+     */
+    text-align: center;
+    margin-top: 50px;
+ }
+ #words p{ 
+    font-family: content;
+    font-weight: 100;
+    font-size: 3vw
+    ;
+
+ }
+
+ menu{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* display: none; */
+    /* transform: translateY(100%); */
+    position:absolute;
+    top:100%;
+    z-index: 4000;
+ }
+ #dive{
+    width: 5%;
+    /* background-color: red; */
+    height: 23px;
+    overflow: hidden;
+ }
+
+
